@@ -24,7 +24,7 @@ buttoneyes.oninput = ()=>{
 }
 
 const buttonhelmet = document.getElementById("button-helmet")
-const helmet = documet.getElementById("helmet");
+const helmet = document.getElementById("helmet");
 
 buttonhelmet.oninput = ()=>{
     helmet.style.fill =
