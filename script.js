@@ -1,1 +1,32 @@
 /* Iteration 4: Make the Canvas App Functional */
+const buttonbackground = document.getElementById("button-background")
+const imgBackground = document.getElementById("background");
+
+buttonbackground.oninput = ()=>{
+    imgBackground.style.fill = 
+    buttonbackground.value;
+}
+
+const buttonfaceplate = document.getElementById("button-face-plate")
+const faceplate = document.getElementById("face-plate");
+
+buttonfaceplate.oninput = ()=>{
+    faceplate.style.fill = 
+    buttonfaceplate.value;
+}
+
+const buttoneyes = document.getElementById("button-eyes")
+const eyes = document.getElementById("eyes");
+
+buttoneyes.oninput = ()=>{
+   eyes.style.fill =
+   buttoneyes.value;
+}
+
+const buttonhelmet = document.getElementById("button-helmet")
+const helmet = documet.getElementById("helmet");
+
+buttonhelmet.oninput = ()=>{
+    helmet.style.fill =
+    buttonhelmet.value;
+}
